@@ -1,0 +1,83 @@
+.ui-container {
+    position: absolute;
+    z-index: 999;
+    border: 2px solid #d7a45d;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+#title-container {
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    margin: auto;
+}
+
+.map-title {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #333333;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    height: min-content;
+}
+
+#ui-container {
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    left: 5px;
+    bottom: 45px;
+    top: 10px;
+    width: 450px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-color: #d7a45d #d4aa7080;
+    scrollbar-width: thin;
+}
+
+p {
+    margin: 0;
+}
+
+.ui-container .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+    table-layout: fixed;
+}
+  
+thead {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+thead th:first-child {
+    width: 30px;
+}
+  
+tbody td:first-child {
+    width: 30px;
+}
+
+thead th {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td {
+    padding: 5px;
+    text-align: left;
+}
